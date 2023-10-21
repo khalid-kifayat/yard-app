@@ -17,7 +17,7 @@ function doConvert(event)   {
     let result = Number(myNumber) * 9;
     console.log(result);
 
-    let message = `If we change ${myNumber} Yard into Square foot then we will get = ${result} sq.ft.`;
+    let message = `Answer:   ${myNumber} yards = ${result} sq.ft`;
 
     document.querySelector("#resultBox").innerHTML = message;
 
